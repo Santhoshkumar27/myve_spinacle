@@ -1,0 +1,19 @@
+{
+  "name": "myve-vision-electron",
+  "version": "1.0.0",
+  "description": "Myve Vision Electron App",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "start-vision": "electron main.js"
+  },
+  "devDependencies": {
+    "electron": "^29.0.0"
+  },
+  "dependencies": {
+    "axios": "^1.10.0",
+    "cors": "^2.8.5",
+    "express": "^5.1.0",
+    "screenshot-desktop": "^1.15.1"
+  }
+}
